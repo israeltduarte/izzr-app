@@ -1,0 +1,52 @@
+:root {
+  --mid_green: #606c38;
+  --dark_green: #283618;
+  --light_green: #ccd5ae;
+  --white_bg: #fefae0;
+  --logo_white: #fff;
+  --color4: #dda15e;
+  --color5: #bc6c25;
+  --hidden_sidebar: -10rem;
+  --sidebar_width: 10rem;
+}
+
+html {
+  font-size: 75%;
+}
+
+body {
+  display: block;
+  padding-left: var(--sidebar_width);
+  margin: 0;
+  background-color: var(--white_bg);
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Lato', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a:link, a:visited, a:active, a:hover {
+  text-decoration: none;
+}
+
+.cls-1 {
+  color: pink;
+}
+
+ul {
+  list-style: none;
+}
+
+section {
+  font-size: 2rem;
+  padding: 1rem;
+}

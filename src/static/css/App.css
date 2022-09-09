@@ -1,0 +1,66 @@
+.Loader {
+    position: absolute;
+    top: 0;
+    left: 4rem;
+    right: 0;
+    bottom: 0;
+    height: 4rem;
+    width: 4rem;
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.SideEmail {
+    position: fixed;
+    bottom: 0;
+    left: auto;
+    right: 0.6rem;
+    z-index: 10;
+    font-size: 1.2rem;
+}
+
+.SideEmail::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color: var(--dark_green);
+}
+
+.SideEmailLabel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.SideEmailLabel a {
+    margin: 15px auto;
+    margin-top: auto;
+    padding: 10px;
+    letter-spacing: 0.1em;
+    writing-mode: vertical-rl;
+    color: var(--dark_green);
+}
+
+.SideEmailLabel a:hover {
+    color: var(--light_green);
+}
+
+.About {
+    display: flex;
+    letter-spacing: -1px;
+}
+
+.About .TextZone {
+    width: 60%;
+    background-color: blue;
+    display: block;
+}
+
+.About .ShowZone {
+    width: 40%;
+    background-color: red;
+}

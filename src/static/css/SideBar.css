@@ -1,0 +1,125 @@
+
+.SideBar {
+    align-items: center;
+    width: var(--sidebar_width);
+    background-color: var(--mid_green);
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: auto;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.SideBar {
+    animation: changeposition 1.2s;
+}
+
+@keyframes changeposition {
+    0% {
+        left: var(--hidden_sidebar);
+        opacity: 0;
+    }
+
+    100% {
+        left: 0;
+        opacity: 1;
+    }
+}
+
+.Logo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem 0;
+    background: linear-gradient(0deg, rgba(96, 108, 56, 1) 0%, rgba(40, 54, 24, 1) 100%);
+}
+
+.Logo a {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-weight: 900;
+    letter-spacing: -1.5px;
+}
+
+.Logo svg {
+    width: 5.8rem;
+    height: 6rem;
+    margin: 0 auto;
+}
+
+.Logo polygon, .Logo path, .Logo circle {
+    fill: var(--logo_white);
+    transition: color, fill 1.2s;
+}
+
+.Logo svg:hover {
+    --logo_white: var(--mid_green);
+}
+
+.Logo span {
+    margin-top: 0.4rem;
+    justify-content: center;
+    color: var(--white_bg);
+}
+
+.Nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid var(--white_bg);
+    font-family: 'Lato', sans-serif;
+    letter-spacing: -1px;
+}
+
+.Nav a {
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-size: 1.6rem;
+    line-height: 5rem;
+    border-bottom: 1px solid var(--white_bg);
+    color: var(--white_bg);
+}
+
+.Nav a:hover {
+    color: var(--light_green);
+    background-color: var(--dark_green);
+    transition: color 0.6s, background-color 0.6s;
+}
+
+.Socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+}
+
+.SocialsList svg {
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 1.5rem;
+    color: var(--white_bg);
+}
+
+.SocialsList svg:hover {
+    fill: var(--dark_green);
+    transition: color, fill 0.3s;
+}
+
+.Socials::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color: var(--white_bg);
+}
