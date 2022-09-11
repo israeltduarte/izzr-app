@@ -21,7 +21,6 @@ body {
   background-color: var(--white_bg);
   height: 100%;
   font-family: 'Lato', sans-serif;
-  font-size: 1.2rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.5;

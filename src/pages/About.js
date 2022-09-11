@@ -1,14 +1,14 @@
 import React from "react";
-import about from "../data/about.json";
+import file from "../data/about.json";
 
 const About = () => {
     return (
         <section className="Content">
             <div className="TextZone">
                 <h2>About</h2>
-                <p>{about.description}</p>
-                <p>{about.historic}</p>
-                <p>{about.hobbies}</p>
+                <p>{file.about.description}</p>
+                <p>{file.about.historic}</p>
+                <p>{file.about.hobbies}</p>
             </div>
             <div className="ShowZone">
                 <div className="Location">
