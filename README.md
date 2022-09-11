@@ -1,6 +1,6 @@
 # Personal Website
 
-__not implemented yet__
+__host not implemented yet__
 [izzr.dev](https://izzr.dev).
 
 # Getting Started with Create React App
