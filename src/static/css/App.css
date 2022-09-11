@@ -49,18 +49,107 @@
     color: var(--light_green);
 }
 
-.About {
+.Content {
     display: flex;
-    letter-spacing: -1px;
+    overflow-wrap: break-word;
 }
 
-.About .TextZone {
-    width: 60%;
-    background-color: blue;
-    display: block;
-}
-
-.About .ShowZone {
+.TextZone {
     width: 40%;
-    background-color: red;
+    display: block;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.TextZone p {
+    margin-bottom: 24px;
+}
+
+.ShowZone {
+    width: 60%;
+    display: flex;
+    padding: 3rem;
+}
+
+.ShowZone .Location {
+    margin: 0 auto;
+    margin-top: 1.5rem;
+}
+
+.Location iframe {
+    border: 1px solid var(--dark_green);
+}
+
+.ContactForm {
+    width: 100%;
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.ContactForm form {
+    display: block;
+    position: relative;
+}
+
+.ContactForm ul {
+    display: block;
+
+}
+
+.ContactForm ul li {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.ContactForm ul li input, .ContactForm textarea {
+    height: 5rem;
+    background-color: var(--mid_green);
+    border: 0;
+    width: 100%;
+    color: var(--light_green);
+    font-size: 1.5rem;
+}
+
+.ContactForm ul li input:focus, .ContactForm textarea:focus {
+    background-color: var(--dark_green);
+    transition: all 2s;
+}
+
+.ContactForm ul li input {
+    padding: 0 2rem;
+}
+
+.ContactForm textarea {
+    padding: 2rem;
+    min-height: 15rem;
+}
+
+.ContactForm textarea::placeholder, .ContactForm ul li input::placeholder {
+    color: var(--light_green);
+}
+
+.HalfLine {
+    clear: none;
+    width: 49%;
+}
+
+.First {
+    margin-right: 1rem;
+}
+
+.Line {
+    width: 100%;
+}
+
+.Submit {
+    float: right !important;
+    max-width: 14rem;
+}
+
+.Submit input {
+    background-color: var(--dark_green) !important;
 }

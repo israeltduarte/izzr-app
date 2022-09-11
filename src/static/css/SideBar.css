@@ -57,7 +57,7 @@
 
 .Logo polygon, .Logo path, .Logo circle {
     fill: var(--logo_white);
-    transition: color, fill 1.2s;
+    transition: fill 1.2s;
 }
 
 .Logo svg:hover {

@@ -1,0 +1,184 @@
+{
+  "info": {
+    "firstName": "Israel",
+    "lastName": "Duarte",
+    "fullName": "Israel Terra Duarte",
+    "location": "Rio Grande/RS",
+    "mainPosition": "Java Developer",
+    "birthdate": "1990-05-04",
+    "email": "israeltduarte@gmail.com",
+    "phone": "+5519996991028",
+    "socialMedia": [
+      "linkedin.com/in/israeltduarte"
+    ],
+    "resume": "I'm an IT professional with over 2 years of experience and graduated as a Systems Analyst and Developer. Currently I'm working as a backend software developer with Java and Spring Boot as the main stack. I've always used agile methodologies such as Scrum and Kanban in order to manage the development process. I'm someone who is at every moment trying to have an open mind to learn more and to become better, not only at professional aspects. I'm someone passionate about technologies and coding."
+  },
+  "education": [
+    {
+      "course": "Tecnologia em Análise e Desenvolvimento de Sistemas",
+      "title": "Technologist in System Analysis and Development",
+      "start": "2017-02",
+      "end": "2021-08"
+    },
+    {
+      "course": "Técnico em Automação Industrial",
+      "title": "Technical Industry Automation",
+      "start": "2013",
+      "end": "2015"
+    }
+  ],
+  "working experiences": [
+    {
+      "company": "Compass Uol",
+      "startDate": "2019-04",
+      "endDate": "2021-04",
+      "function": [
+        {
+          "title": "Backend Developer",
+          "clients": [
+            {
+              "name": "Jaguariúna City Hall",
+              "project": [
+                {
+                  "name": "EICON",
+                  "resume": "I worked as a backend Developer with Java and Spring Boot.",
+                  "description": "In this project, we upgraded an existing system adding a feature that would allow companies from other cities to sign up and send billing contracts for their services. I helped to develop the solution modeling data, ensuring quality with unit tests and publishing the work. Part of the development process included creating new REST endpoints in order to add new clients from other cities, developing Swagger using OpenAPI standards. Always working under SCRUM development process.",
+                  "stack": [
+                    "Java",
+                    "Spring boot",
+                    "SCRUM",
+                    "Swagger",
+                    "JUnit",
+                    "Maven",
+                    "BitBucket",
+                    "MySQL",
+                    "Eclipse",
+                    "Hibernate",
+                    "PL/SQL"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Full-Stack Developer",
+          "clients": [
+            {
+              "name": "Livelo",
+              "project": [
+                {
+                  "name": "coupon management",
+                  "resume": "I worked mainly as a backend developer with Java and Spring Boot but also working as a fronted developer using Javascript and KnockoutJS. I started to be a participant to the Architecture of Microservices process.",
+                  "description": "In this project, we developed and managed microservices in order to create, redeem and validate Livelo coupons and other related features such as generation of file reports, filtering and scheduler development.",
+                  "stack": [
+                    "Architecture of Microservices",
+                    "Data modeling",
+                    "Java",
+                    "Spring Boot",
+                    "Hibernate",
+                    "Maven",
+                    "JUnit",
+                    "Swagger",
+                    "Jenkins",
+                    "SQL",
+                    "Oracle",
+                    "Intellij IDE",
+                    "Docker",
+                    "Stash",
+                    "SCRUM",
+                    "Jira",
+                    "HTML",
+                    "CSS",
+                    "Javascript",
+                    "KnockoutJS",
+                    "OCC"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Avenue Code",
+      "startDate": "2021-04",
+      "endDate": "Present day",
+      "function": [
+        {
+          "title": "Software Engineer",
+          "clients": [
+            {
+              "name": "SquareTrade",
+              "project": {
+                "name": "warranty lifecycle",
+                "resume": "I worked as a software engineer using Java and Spring Boot.",
+                "description": "Project with emphasis in backend development using Java Frameworks. The main goal of the project was to replace and split up a legacy monolith into several microservices looking for a better management of the lifecycle of warranties acquired from the clients. The responsibility included dealing with sync and async services and event through queues and managing several databases.",
+                "stack": [
+                  "Java",
+                  "Spring Boot",
+                  "Hibernate",
+                  "Gradle",
+                  "Jenkins",
+                  "SQL",
+                  "PostgreSQL",
+                  "Intellij",
+                  "Github",
+                  "SCRUM",
+                  "Jira",
+                  "ActiveMQ"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "description": "English course – TopWay English School",
+      "date": "2020"
+    },
+    {
+      "description": "Scrum Foundation Professional Certificate (SPFC)",
+      "date": "2020-04"
+    }
+  ],
+  "skills": [
+    "Microservices",
+    "Java",
+    "Spring Boot",
+    "Hibernate",
+    "Maven",
+    "ActiveMQ",
+    "JUnit",
+    "Oracle DB",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "PL/SQL",
+    "SCRUM",
+    "Kanban",
+    "Jira",
+    "HTML",
+    "CSS",
+    "Javascript",
+    "KnockoutJS",
+    "NodeJS",
+    "GIT",
+    "Bitbucket",
+    "Github"
+  ],
+  "languages": [
+    {
+      "lingua": "Portuguese",
+      "level": "native"
+    },
+    {
+      "lingua": "English",
+      "level": "B2"
+    }
+  ]
+}

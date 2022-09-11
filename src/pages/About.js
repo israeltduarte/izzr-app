@@ -1,23 +1,24 @@
 import React from "react";
-import ReactMarkdown from 'react-markdown';
-import raw from 'raw.macro';
-
-const markdown = raw('../data/about.md');
+import about from "../data/about.json";
 
 const About = () => {
     return (
-        <section className="About">
+        <section className="Content">
             <div className="TextZone">
-                <article>
-                    <ReactMarkdown
-                        children={markdown}
-                    />
-                </article>
+                <h2>About</h2>
+                <p>{about.description}</p>
+                <p>{about.historic}</p>
+                <p>{about.hobbies}</p>
             </div>
             <div className="ShowZone">
-                <p>
-                    Tap and hold on the message that you want to “like” or react to with an emoji. Choose which reaction emoji you would like to use. Generally, the best emoji for “liking a message is the thumbs up emoji.
-                </p>
+                <div className="Location">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d235148.9431658779!2d-47.179291385183134!3d-22.942777934179837!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c58a1a83a4cf%3A0xd689d301fcb4d997!2sAv.%20Jos%C3%A9%20Bonif%C3%A1cio%2C%201%20-%20Jardim%20Flamboyant%2C%20Campinas%20-%20SP%2C%2013091-140!5e0!3m2!1sen!2sbr!4v1662869166395!5m2!1sen!2sbr"
+                        title="current location"
+                        width="600"
+                        height="450"
+                        loading="eager"
+                    />
+                </div>
             </div>
         </section>
     )
