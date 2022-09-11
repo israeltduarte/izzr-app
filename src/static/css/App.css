@@ -87,14 +87,8 @@
     box-sizing: border-box;
 }
 
-.ContactForm form {
-    display: block;
-    position: relative;
-}
-
 .ContactForm ul {
     display: block;
-
 }
 
 .ContactForm ul li {
@@ -103,6 +97,7 @@
     position: relative;
     display: block;
     margin-bottom: 1rem;
+    width: 100%;
 }
 
 .ContactForm ul li input, .ContactForm textarea {
@@ -112,15 +107,16 @@
     width: 100%;
     color: var(--light_green);
     font-size: 1.5rem;
+    box-sizing: border-box;
+}
+
+.ContactForm ul li input {
+    padding: 0 2rem;
 }
 
 .ContactForm ul li input:focus, .ContactForm textarea:focus {
     background-color: var(--dark_green);
     transition: all 2s;
-}
-
-.ContactForm ul li input {
-    padding: 0 2rem;
 }
 
 .ContactForm textarea {
@@ -134,15 +130,11 @@
 
 .HalfLine {
     clear: none;
-    width: 49%;
+    width: 49% !important;
 }
 
-.First {
+.HalfLine:first-child {
     margin-right: 1rem;
-}
-
-.Line {
-    width: 100%;
 }
 
 .Submit {

@@ -12,7 +12,7 @@ const Contact = () => {
                 <div className="ContactForm">
                     <form>
                         <ul>
-                            <li className="HalfLine First">
+                            <li className="HalfLine">
                                 <input type="text" placeholder="name" />
                             </li>
                             <li className="HalfLine">
@@ -25,13 +25,12 @@ const Contact = () => {
                                 <textarea placeholder="message" />
                             </li>
                             <li className="Line Submit">
-                                <input type="submit" value="send message"/>
+                                <input type="submit" value="send message" />
                             </li>
                         </ul>
                     </form>
                 </div>
             </div>
-
         </section>
     )
 }
