@@ -1,6 +1,22 @@
 import React from "react";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        emailjs.init(process.env.REACT_APP_USER_ID);
+
+        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, "#contactForm")
+            .then(
+                result => console.log(result),
+                error => console.log(error.text)
+            );
+
+        e.target.reset();
+    }
+
     return (
         <section className="Content">
             <div className="TextZone">
@@ -10,19 +26,19 @@ const Contact = () => {
             </div>
             <div className="ShowZone">
                 <div className="ContactForm">
-                    <form>
+                    <form id="contactForm" onSubmit={handleSubmit}>
                         <ul>
                             <li className="HalfLine">
-                                <input type="text" placeholder="name" />
+                                <input name="name" type="text" placeholder="name" />
                             </li>
                             <li className="HalfLine">
-                                <input type="email" placeholder="email" />
+                                <input name="email" type="email" placeholder="email" />
                             </li>
                             <li className="Line">
-                                <input type="text" placeholder="subject" />
+                                <input name="subject" type="text" placeholder="subject" />
                             </li>
                             <li className="Line">
-                                <textarea placeholder="message" />
+                                <textarea name="message" placeholder="message" />
                             </li>
                             <li className="Line Submit">
                                 <input type="submit" value="send message" />
