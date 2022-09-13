@@ -1,0 +1,20 @@
+{
+    "back-end": {
+        "total": "80%",
+        "elements": [
+            {
+                "name": "Java",
+                "total": "60%"
+            }
+        ]
+    },
+    "front-end": {
+        "total": "66%",
+        "elements": [
+            {
+                "name": "React",
+                "total": "24%"
+            }
+        ]
+    }
+}

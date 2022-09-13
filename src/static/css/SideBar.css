@@ -11,9 +11,6 @@
     right: auto;
     justify-content: space-between;
     flex-direction: column;
-}
-
-.SideBar {
     animation: changeposition 1.2s;
 }
 

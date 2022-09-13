@@ -1,23 +1,42 @@
-import React from "react";
-import file from "../data/about.json";
+import React, { useState } from 'react';
+import about from "../data/about.json";
+import useCollapse from 'react-collapsed';
+import SkillLine from '../components/SkillLine';
 
-const About = () => {
+const About = (props) => {
+
+    const [ isExpanded, setExpanded ] = useState(false);
+    const { getCollapseProps, getToggleProps } = useCollapse({ isExpanded });
+
+    const handleClick = () => {
+        setExpanded(!isExpanded);
+    }
+
     return (
         <section className="Content">
             <div className="TextZone">
                 <h2>About</h2>
-                <p>{file.about.description}</p>
-                <p>{file.about.historic}</p>
-                <p>{file.about.hobbies}</p>
+                <p>{about.about.description}</p>
+                <p>{about.about.historic}</p>
+                <p>{about.about.hobbies}</p>
             </div>
             <div className="ShowZone">
-                <div className="Location">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d235148.9431658779!2d-47.179291385183134!3d-22.942777934179837!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c58a1a83a4cf%3A0xd689d301fcb4d997!2sAv.%20Jos%C3%A9%20Bonif%C3%A1cio%2C%201%20-%20Jardim%20Flamboyant%2C%20Campinas%20-%20SP%2C%2013091-140!5e0!3m2!1sen!2sbr!4v1662869166395!5m2!1sen!2sbr"
-                        title="current location"
-                        width="600"
-                        height="450"
-                        loading="eager"
-                    />
+                <div className="SkillsChart">
+                    <SkillLine name="back-end"/>
+                    <SkillLine name="front-end"/>
+                    
+                    <div className="SkillLine collapsible">
+                        <div className="ProgressBar header" {...getToggleProps({onClick: handleClick})}>
+                            {isExpanded ? 'Collapse' : 'Expand'}
+                        </div>
+                        <div {...getCollapseProps()}>
+                            <div className="content">
+                                Now you can see the hidden content. <br /><br />
+                                Click again to hide...
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
