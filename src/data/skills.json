@@ -1,7 +1,6 @@
 {
     "back": {
         "name": "Back-end",
-        "years": 3,
         "total": "100%",
         "stack": [
             {
@@ -43,7 +42,6 @@
     },
     "front": {
         "name": "Front-end",
-        "years": 1.2,
         "total": "40%",
         "stack": [
             {
@@ -85,7 +83,6 @@
     },
     "other_tools": {
         "name": "Tools",
-        "years": 3,
         "total": "100%",
         "stack": [
             {

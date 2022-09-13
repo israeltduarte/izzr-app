@@ -21,7 +21,6 @@ const SkillArea = (props) => {
             <div {...getCollapseProps()}>
                 {
                     props.area.stack.map((element) => {
-
                         return (
                             <div className="SkillLine SubLine content" key={element.id}>
                                 <div className="ProgressBar" style={{ width: element.total }} >
