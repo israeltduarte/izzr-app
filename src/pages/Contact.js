@@ -18,7 +18,7 @@ const Contact = () => {
     }
 
     return (
-        <section className="Content">
+        <section className="ContentZone">
             <div className="TextZone">
                 <h2>Contact</h2>
                 <p>If you want to work together or for any other issues please feel free to get in touch sending me a message!</p>
@@ -60,4 +60,4 @@ const Contact = () => {
     )
 }
 
-export default Contact
+export default Contact;

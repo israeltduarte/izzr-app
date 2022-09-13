@@ -10,4 +10,4 @@ const CustomLoader = () => {
     )
 }
 
-export default CustomLoader
+export default CustomLoader;

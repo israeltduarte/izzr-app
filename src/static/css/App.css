@@ -49,7 +49,7 @@
     color: var(--light_green);
 }
 
-.Content {
+.ContentZone {
     display: flex;
     overflow-wrap: break-word;
     opacity: 1;
@@ -73,6 +73,12 @@
     position: relative;
 }
 
+.SubLine {
+    height: 2rem;
+    margin-left: 5rem;
+    cursor: default !important;
+}
+
 .ShowZone .Location {
     width: 100%;
     height: 100%;
@@ -83,7 +89,7 @@
     width: 100%;
     height: 100%;
     opacity: 1;
-    
+
 }
 
 @keyframes changedisplay {
@@ -168,18 +174,30 @@
     transition: all 0.3s;
 }
 
-.SkillsChart {
-
-}
+.SkillsChart {}
 
 .SkillLine {
     background-color: var(--mid_green);
     max-width: 100%;
-    height: 4rem;
+    height: 3.2rem;
     position: relative;
     display: flex;
     margin-bottom: 2rem;
     cursor: pointer;
+}
+
+.SkillLine:hover {
+    cursor: pointer;
+}
+
+.SubLine {
+    height: 2rem;
+    margin-left: 5rem;
+    cursor: default !important;
+}
+
+.SubLine .SkillName {
+    font-size: 1.2rem !important;
 }
 
 .ProgressBar {

@@ -1,19 +1,127 @@
 {
-    "back-end": {
-        "total": "80%",
-        "elements": [
+    "back": {
+        "name": "Back-end",
+        "years": 3,
+        "total": "100%",
+        "stack": [
             {
+                "id": 1,
                 "name": "Java",
-                "total": "60%"
+                "total": "100%",
+                "years": 3,
+                "level": 4
+            },
+            {
+                "id": 2,
+                "name": "Spring Boot",
+                "total": "100%",
+                "years": 3,
+                "level": 4
+            },
+            {
+                "id": 3,
+                "name": "SQL",
+                "total": "100%",
+                "years": 3,
+                "level": 3
+            },
+            {
+                "id": 4,
+                "name": "Microservices",
+                "total": "90%",
+                "years": 3,
+                "level": 4
+            },
+            {
+                "id": 5,
+                "name": "event-driven",
+                "total": "33%",
+                "years": 1,
+                "level": 2
             }
         ]
     },
-    "front-end": {
-        "total": "66%",
-        "elements": [
+    "front": {
+        "name": "Front-end",
+        "years": 1.2,
+        "total": "40%",
+        "stack": [
             {
+                "id": 1,
+                "name": "HTML",
+                "total": "100%",
+                "years": 1,
+                "level": 3
+            },
+            {
+                "id": 2,
+                "name": "CSS",
+                "total": "100%",
+                "years": 1,
+                "level": 3
+            },
+            {
+                "id": 3,
+                "name": "Node.js",
+                "total": "30%",
+                "years": 3,
+                "level": 2
+            },
+            {
+                "id": 4,
+                "name": "Javascript",
+                "total": "100%",
+                "years": 1,
+                "level": 3
+            },
+            {
+                "id": 5,
                 "name": "React",
-                "total": "24%"
+                "total": "15%",
+                "years": 0.6,
+                "level": 2
+            }
+        ]
+    },
+    "other_tools": {
+        "name": "Tools",
+        "years": 3,
+        "total": "100%",
+        "stack": [
+            {
+                "id": 1,
+                "name": "Scrum",
+                "total": "100%",
+                "years": 3,
+                "level": 4
+            },
+            {
+                "id": 2,
+                "name": "Git",
+                "total": "90%",
+                "years": 3,
+                "level": 4
+            },
+            {
+                "id": 3,
+                "name": "Jenkins",
+                "total": "90%",
+                "years": 2.5,
+                "level": 3
+            },
+            {
+                "id": 4,
+                "name": "Confluence",
+                "total": "90%",
+                "years": 2.5,
+                "level": 3
+            },
+            {
+                "id": 5,
+                "name": "Jira",
+                "total": "90%",
+                "years": 2,
+                "level": 3
             }
         ]
     }

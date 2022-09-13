@@ -1,20 +1,17 @@
 import React from "react";
-import Nav from "./Nav";
-import Logo from "./Logo";
-import Socials from "./Socials";
 import "../static/css/SideBar.css";
+import Logo from "./Logo";
+import Nav from "./Nav";
+import Socials from "./Socials";
 
-class SideBar extends React.Component {
-
-    render() {
-        return (
-            <menu className="SideBar">
-                <Logo />
-                <Nav />
-                <Socials />
-            </menu>
-        )
-    }
+const SideBar = () => {
+    return (
+        <menu className="SideBar">
+            <Logo />
+            <Nav />
+            <Socials />
+        </menu>
+    )
 }
 
-export default SideBar
+export default SideBar;

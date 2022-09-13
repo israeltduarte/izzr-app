@@ -1,46 +1,18 @@
-import React, { useState } from 'react';
-import about from "../data/about.json";
-import useCollapse from 'react-collapsed';
-import SkillLine from '../components/SkillLine';
+import React from 'react';
+import AboutCard from '../components/AboutCard';
+import SkillsChart from '../components/SkillsChart';
 
-const About = (props) => {
-
-    const [ isExpanded, setExpanded ] = useState(false);
-    const { getCollapseProps, getToggleProps } = useCollapse({ isExpanded });
-
-    const handleClick = () => {
-        setExpanded(!isExpanded);
-    }
-
+const About = () => {
     return (
-        <section className="Content">
+        <section className="ContentZone" >
             <div className="TextZone">
-                <h2>About</h2>
-                <p>{about.about.description}</p>
-                <p>{about.about.historic}</p>
-                <p>{about.about.hobbies}</p>
+                <AboutCard />
             </div>
             <div className="ShowZone">
-                <div className="SkillsChart">
-                    <SkillLine name="back-end"/>
-                    <SkillLine name="front-end"/>
-                    
-                    <div className="SkillLine collapsible">
-                        <div className="ProgressBar header" {...getToggleProps({onClick: handleClick})}>
-                            {isExpanded ? 'Collapse' : 'Expand'}
-                        </div>
-                        <div {...getCollapseProps()}>
-                            <div className="content">
-                                Now you can see the hidden content. <br /><br />
-                                Click again to hide...
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
+                <SkillsChart />
             </div>
         </section>
-    )
+    );
 }
 
-export default About
+export default About;
