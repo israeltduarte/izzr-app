@@ -1,108 +1,90 @@
 {
     "back": {
         "name": "Back-end",
-        "total": "100",
         "stack": [
             {
                 "id": 1,
                 "name": "Java",
-                "total": "100",
                 "level": 4.4
             },
             {
                 "id": 2,
                 "name": "Spring Boot",
-                "total": "100",
                 "level": 4
             },
             {
                 "id": 3,
                 "name": "SQL",
-                "total": "100",
                 "level": 3.4
             },
             {
                 "id": 4,
                 "name": "Microservices",
-                "total": "90",
                 "level": 4.2
             },
             {
                 "id": 5,
                 "name": "Event-Driven",
-                "total": "33",
                 "level": 2
             }
         ]
     },
     "front": {
         "name": "Front-end",
-        "total": "40",
         "stack": [
             {
                 "id": 1,
                 "name": "HTML",
-                "total": "100",
                 "level": 3.5
             },
             {
                 "id": 2,
                 "name": "CSS",
-                "total": "100",
                 "level": 3
             },
             {
                 "id": 3,
                 "name": "Node.js",
-                "total": "30",
                 "level": 1.9
             },
             {
                 "id": 4,
                 "name": "Javascript",
-                "total": "100",
                 "level": 3
             },
             {
                 "id": 5,
                 "name": "React",
-                "total": "15",
                 "level": 2.2
             }
         ]
     },
     "other_tools": {
         "name": "Tools",
-        "total": "100",
         "stack": [
             {
                 "id": 1,
                 "name": "Scrum",
-                "total": "100",
                 "level": 4.1
             },
             {
                 "id": 2,
                 "name": "Git",
-                "total": "90",
                 "level": 4
             },
             {
                 "id": 3,
                 "name": "Jenkins",
-                "total": "90",
                 "level": 3
             },
             {
                 "id": 4,
                 "name": "Confluence",
-                "total": "90",
                 "level": 3
             },
             {
                 "id": 5,
                 "name": "Jira",
-                "total": "90",
                 "level": 3
             }
         ]
