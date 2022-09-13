@@ -55,7 +55,7 @@
                 "id": 3,
                 "name": "Node.js",
                 "total": "30",
-                "level": 2
+                "level": 1.9
             },
             {
                 "id": 4,
@@ -67,7 +67,7 @@
                 "id": 5,
                 "name": "React",
                 "total": "15",
-                "level": 2
+                "level": 2.2
             }
         ]
     },
