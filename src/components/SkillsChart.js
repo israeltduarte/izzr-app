@@ -5,7 +5,7 @@ import SkillArea from './SkillArea';
 const SkillsChart = () => {
     return (
         <div className="SkillsChart">
-            <SkillArea area={skills.back} />
+            <SkillArea area={skills.back} isExpanded={true} />
             <SkillArea area={skills.front} />
             <SkillArea area={skills.other_tools} />
         </div>
