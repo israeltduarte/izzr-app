@@ -1,0 +1,61 @@
+.SkillsChart {}
+
+.SkillLine {
+    background-color: var(--ultra_light_green);
+    max-width: 100%;
+    height: 3.2rem;
+    position: relative;
+    display: flex;
+    margin-bottom: 1.2rem;
+    cursor: pointer;
+}
+
+.SubLine {
+    height: 2rem;
+    margin-left: 5rem;
+    cursor: default !important;
+    background-color: var(--ultra_light_green);
+}
+
+.SubLine .ProgressBar {
+    background-color: var(--mid_green);
+    color: var(--ultra_light_green);
+}
+
+.SubLine .SkillName, .SubLine .SkillPercent {
+    font-size: 1.2rem !important;
+}
+
+.ProgressBar {
+    color: var(--ultra_light_green);
+    font-weight: bold;
+    font-size: 1.6rem;
+    height: 100%;
+    background-color: var(--dark_green);
+    box-sizing: border-box;
+    animation: changewidth ease-in-out 2s;
+}
+
+@keyframes changewidth {
+    0% {
+        width: 0%;
+    }
+}
+
+.SkillName {
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 1rem;
+    float: left;
+    position: absolute;
+}
+
+.SkillPercent {
+    height: 100%;
+    display: flex;
+    float: right;
+    align-items: center;
+    margin-right: 1rem;
+}

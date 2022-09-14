@@ -8,8 +8,8 @@ import Career from './pages/Career';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
-
 import "./static/css/App.css";
+import "./static/css/Variables.css";
 
 // import pMinDelay from 'p-min-delay';
 // const About = lazy(() => pMinDelay(import('./pages/About'), 3000));

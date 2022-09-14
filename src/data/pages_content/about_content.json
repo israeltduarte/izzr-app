@@ -1,0 +1,21 @@
+{
+    "language": "EN",
+    "page": "/about",
+    "content": {
+        "title": "About",
+        "paragraphs": [
+            {
+                "id": "1",
+                "phrase": "I'm Israel Duarte, a web developer based in Campinas, Brazil."
+            },
+            {
+                "id": "2",
+                "phrase": "Since 2019, I've been participating and helping engineering teams to plan, design, implement and maintain high performance web applications."
+            },
+            {
+                "id": "3",
+                "phrase": "While I'm not coding or studying I'll be probably eating, cooking and working out but not exactly in that order."
+            }
+        ]
+    }
+}

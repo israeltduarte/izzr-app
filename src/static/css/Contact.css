@@ -1,0 +1,87 @@
+.Location {
+    width: 100%;
+    height: 100%;
+}
+
+.Location iframe {
+    border: 1px solid var(--dark_green);
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+
+.ContactForm {
+    width: 100%;
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.ContactForm ul {
+    display: block;
+}
+
+.ContactForm ul li {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.ContactForm ul li input, .ContactForm textarea {
+    height: 5rem;
+    background-color: var(--mid_green);
+    border: 0;
+    width: 100%;
+    color: var(--light_green);
+    font-size: 1.6rem;
+    box-sizing: border-box;
+}
+
+.ContactForm ul li input {
+    padding: 0 1.5rem;
+}
+
+.ContactForm ul li input:focus, .ContactForm textarea:focus {
+    background-color: var(--dark_green);
+    transition: all 2s;
+}
+
+.ContactForm textarea {
+    padding: 1.5rem;
+    min-height: 15rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.ContactForm textarea::placeholder, .ContactForm ul li input::placeholder {
+    color: var(--light_green);
+}
+
+.HalfLine {
+    clear: none;
+    margin-left: 3%;
+    width: 48.5% !important;
+}
+
+.HalfLine:first-child {
+    margin-left: 0 !important;
+}
+
+.Submit {
+    float: right !important;
+    max-width: 14rem;
+}
+
+.Submit input {
+    background-color: var(--dark_green) !important;
+    cursor: pointer;
+}
+
+.Submit input:hover {
+    background-color: var(--light_green) !important;
+    color: var(--dark_green);
+    border: 1px solid var(--dark_green);
+    transition: all 0.3s;
+}

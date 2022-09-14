@@ -1,28 +1,32 @@
-import React from "react";
 import emailjs from "@emailjs/browser";
+import React from "react";
+import contact from "../data/pages_content/contact_content.json";
+import "../static/css/Contact.css";
 
 const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-
         emailjs.init(process.env.REACT_APP_USER_ID);
-
         emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, "#contactForm")
             .then(
                 result => console.log(result),
                 error => console.log(error.text)
             );
-
         e.target.reset();
     }
 
     return (
         <section className="ContentZone">
             <div className="TextZone">
-                <h2>Contact</h2>
-                <p>If you want to work together or for any other issues please feel free to get in touch sending me a message!</p>
-                <p>I'll be answering as soon as possible!</p>
+                <h2>{contact.content.title}</h2>
+                {
+                    contact.content.paragraphs
+                        .sort((a, b) => a.id > b.id ? 1 : -1)
+                        .map(element => {
+                            return <p key={element.id}>{element.phrase}</p>;
+                        })
+                }
                 <div className="ContactForm">
                     <form id="contactForm" onSubmit={handleSubmit}>
                         <ul>

@@ -3,7 +3,7 @@ import useCollapse from 'react-collapsed';
 
 const SkillArea = (props) => {
 
-    const [isExpanded, setExpanded] = useState(props.isExpanded);
+    const [isExpanded, setExpanded] = useState(props.isExpanded || false);
     const { getCollapseProps, getToggleProps } = useCollapse({ isExpanded });
     const handleClick = () => setExpanded(!isExpanded);
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import skills from "../data/skills.json";
 import SkillArea from './SkillArea';
+import "../static/css/Skills.css"
 
 const SkillsChart = () => {
     return (
