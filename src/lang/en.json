@@ -1,0 +1,23 @@
+{
+    "personal.title": "Web Development",
+    "nav.about": "About",
+    "nav.career": "Career",
+    "nav.projects": "Projects",
+    "nav.contact": "Contact",
+    "about.page": "/about",
+    "about.title": "About",
+    "about.phrase1": "I'm Israel Duarte, a web developer based in Campinas, Brazil.",
+    "about.phrase2": "Since 2019, I've been participating and helping engineering teams to plan, design, implement and maintain high performance web applications.",
+    "about.phrase3": "While I'm not coding or studying I'll be probably eating, cooking and working out but not exactly in that order.",
+    "about.skills.tools": "Tools",
+    "about.skills.back": "Back-end",
+    "about.skills.front": "Front-end",
+    "contact.page": "/contact",
+    "contact.title": "Contact",
+    "contact.phrase1": "If you want to work together or for any other issues please feel free to get in touch by sending me a message.",
+    "contact.form.name.placeholder": "name",
+    "contact.form.email.placeholder": "email",
+    "contact.form.subject.placeholder": "subject",
+    "contact.form.message.placeholder": "message",
+    "contact.form.submit.value": "send message"
+}

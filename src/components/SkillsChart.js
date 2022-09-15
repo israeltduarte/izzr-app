@@ -1,14 +1,14 @@
 import React from 'react';
 import skills from "../data/skills.json";
+import "../static/css/Skills.css";
 import SkillArea from './SkillArea';
-import "../static/css/Skills.css"
 
 const SkillsChart = () => {
     return (
         <div className="SkillsChart">
-            <SkillArea area={skills.back} isExpanded={true} />
-            <SkillArea area={skills.front} />
-            <SkillArea area={skills.other_tools} />
+            <SkillArea area={skills.back} name="about.skills.back" isExpanded={true} />
+            <SkillArea area={skills.front} name="about.skills.front" />
+            <SkillArea area={skills.other_tools} name="about.skills.tools" />
         </div>
     )
 }

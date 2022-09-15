@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import useCollapse from 'react-collapsed';
+import { FormattedMessage } from 'react-intl';
 
 const SkillArea = (props) => {
 
@@ -18,7 +19,7 @@ const SkillArea = (props) => {
             <div className="SkillLine" {...getToggleProps({ onClick: handleClick })}>
                 <div className="ProgressBar" style={{ width: areaResult }} >
                     <div className="SkillName">
-                        {area.name}
+                        <FormattedMessage id={props.name} defaultMessage="" />
                     </div>
                     <div className="SkillPercent">
                         {areaResult}

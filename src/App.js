@@ -1,4 +1,4 @@
-import { default as React, Suspense } from 'react';
+import React, { Suspense } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import CustomLoader from './components/CustomLoader';
 import SideBar from "./components/SideBar";

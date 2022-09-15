@@ -1,4 +1,5 @@
 import React from "react";
+import { FormattedMessage } from 'react-intl';
 import { Link } from 'react-router-dom';
 
 const Logo = () => {
@@ -15,8 +16,10 @@ const Logo = () => {
                     </g>
                 </svg>
             </Link>
+
+
             <span>Israel Duarte</span>
-            <span>Web Development</span>
+            <span><FormattedMessage id="personal.title" defaultMessage="" /></span>
         </div>
     )
 }

@@ -1,6 +1,6 @@
 import emailjs from "@emailjs/browser";
 import React from "react";
-import contact from "../data/pages_content/contact_content.json";
+import { FormattedMessage } from 'react-intl';
 import "../static/css/Contact.css";
 
 const Contact = () => {
@@ -19,31 +19,35 @@ const Contact = () => {
     return (
         <section className="ContentZone">
             <div className="TextZone">
-                <h2>{contact.content.title}</h2>
-                {
-                    contact.content.paragraphs
-                        .sort((a, b) => a.id > b.id ? 1 : -1)
-                        .map(element => {
-                            return <p key={element.id}>{element.phrase}</p>;
-                        })
-                }
+                <h2><FormattedMessage id="contact.title" defaultMessage="Contact" /></h2>
+                <p><FormattedMessage id="contact.phrase1" defaultMessage="" /></p>
                 <div className="ContactForm">
                     <form id="contactForm" onSubmit={handleSubmit}>
                         <ul>
                             <li className="HalfLine">
-                                <input name="name" type="text" placeholder="name" />
+                                <FormattedMessage id="contact.form.name.placeholder" defaultMessage="message">
+                                    {placeholder => <input name="name" type="text" placeholder={placeholder} />}
+                                </FormattedMessage>
                             </li>
                             <li className="HalfLine">
-                                <input name="email" type="email" placeholder="email" />
+                                <FormattedMessage id="contact.form.email.placeholder" defaultMessage="email">
+                                    {placeholder => <input name="email" type="email" placeholder={placeholder} />}
+                                </FormattedMessage>
                             </li>
                             <li className="Line">
-                                <input name="subject" type="text" placeholder="subject" />
+                                <FormattedMessage id="contact.form.subject.placeholder" defaultMessage="subject">
+                                    {placeholder => <input name="subject" type="text" placeholder={placeholder} />}
+                                </FormattedMessage>
                             </li>
                             <li className="Line">
-                                <textarea name="message" placeholder="message" />
+                                <FormattedMessage id="contact.form.message.placeholder" defaultMessage="message">
+                                    {placeholder => <textarea name="message" placeholder={placeholder} />}
+                                </FormattedMessage>
                             </li>
                             <li className="Line Submit">
-                                <input type="submit" value="send message" />
+                                <FormattedMessage id="contact.form.submit.value" defaultMessage="send message">
+                                    {value => <input name="submit" type="submit" value={value} />}
+                                </FormattedMessage>
                             </li>
                         </ul>
                     </form>
@@ -58,7 +62,6 @@ const Contact = () => {
                         loading="eager"
                     />
                 </div>
-
             </div>
         </section>
     )

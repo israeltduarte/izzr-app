@@ -1,0 +1,23 @@
+{
+    "personal.title": "Desenvolvimento Web",
+    "nav.about": "Sobre",
+    "nav.career": "Carreira",
+    "nav.projects": "Projetos",
+    "nav.contact": "Contato",
+    "about.page": "/about",
+    "about.title": "Sobre",
+    "about.phrase1": "Me chamo Israel Duarte e sou um desenvolvedor web morando em Campinas, Brasil.",
+    "about.phrase2": "Desde 2019, eu participo e ajudo times de engenharia a planejar, projetar, implementar e manter aplicações web de alta performance.",
+    "about.phrase3": "Enquanto eu não estou codando ou estudando, eu provavelmente vou estar comendo, cozinhando ou me exercitando mas não exatamente nessa ordem.",
+    "about.skills.tools": "Ferramentas",
+    "about.skills.back": "Back-end",
+    "about.skills.front": "Front-end",
+    "contact.page": "/contact",
+    "contact.title": "Contato",
+    "contact.phrase1": "Se você quer trabalhar junto ou para qualquer outro assunto, sinta-se a vontade para entrar em contato mandando uma mensagem.",
+    "contact.form.name.placeholder": "nome",
+    "contact.form.email.placeholder": "email",
+    "contact.form.subject.placeholder": "assunto",
+    "contact.form.message.placeholder": "mensagem",
+    "contact.form.submit.value": "enviar mensagem"
+}

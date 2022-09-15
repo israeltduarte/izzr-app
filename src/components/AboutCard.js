@@ -1,17 +1,13 @@
 import React from "react";
-import about from "../data/pages_content/about_content.json";
+import { FormattedMessage } from 'react-intl';
 
 const AboutCard = () => {
     return (
         <div>
-            <h2>{about.content.title}</h2>
-            {
-                about.content.paragraphs
-                    .sort((a, b) => a.id > b.id ? 1 : -1)
-                    .map(element => {
-                        return <p key={element.id}>{element.phrase}</p>;
-                    })
-            }
+            <h2><FormattedMessage id="about.title" defaultMessage="About" /></h2>
+            <p><FormattedMessage id="about.phrase1" defaultMessage="" /></p>
+            <p><FormattedMessage id="about.phrase2" defaultMessage="" /></p>
+            <p><FormattedMessage id="about.phrase3" defaultMessage="" /></p>
         </div>
     )
 }

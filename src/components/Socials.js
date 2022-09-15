@@ -1,24 +1,24 @@
 import React from "react";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import information from "../data/information.json"
+import data from "../data/information.json";
 
 const Socials = () => {
     return (
         <div className="Socials">
             <ul className="SocialsList">
                 <li>
-                    <a target="_blank" rel="noopener noreferrer" href={information.instagram}>
+                    <a target="_blank" rel="noopener noreferrer" href={data.information.instagram}>
                         <AiFillInstagram />
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.github.com/israeltduarte">
+                    <a target="_blank" rel="noopener noreferrer" href={data.information.github}>
                         <AiFillGithub />
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/israeltduarte">
+                    <a target="_blank" rel="noopener noreferrer" href={data.information.linkedin}>
                         <FaLinkedinIn />
                     </a>
                 </li>
