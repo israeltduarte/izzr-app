@@ -5,7 +5,7 @@ import LanguageWrapper from "./components/LanguageWrapper";
 import reportWebVitals from "./reportWebVitals";
 import * as serviceWorker from './serviceWorker';
 
-import './static/css/Index.css';
+import './static/css/index.css';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
