@@ -20,27 +20,27 @@ const ContactForm = () => {
             <form id="contactForm" onSubmit={handleSubmit}>
                 <ul>
                     <li className="HalfLine">
-                        <FormattedMessage id="contact.form.name.placeholder" defaultMessage="message">
+                        <FormattedMessage id="content.pages.contact.form.name.placeholder">
                             {placeholder => <input name="name" type="text" placeholder={placeholder} />}
                         </FormattedMessage>
                     </li>
                     <li className="HalfLine">
-                        <FormattedMessage id="contact.form.email.placeholder" defaultMessage="email">
+                        <FormattedMessage id="content.pages.contact.form.email.placeholder">
                             {placeholder => <input name="email" type="email" placeholder={placeholder} />}
                         </FormattedMessage>
                     </li>
                     <li className="Line">
-                        <FormattedMessage id="contact.form.subject.placeholder" defaultMessage="subject">
+                        <FormattedMessage id="content.pages.contact.form.subject.placeholder">
                             {placeholder => <input name="subject" type="text" placeholder={placeholder} />}
                         </FormattedMessage>
                     </li>
                     <li className="Line">
-                        <FormattedMessage id="contact.form.message.placeholder" defaultMessage="message">
+                        <FormattedMessage id="content.pages.contact.form.message.placeholder">
                             {placeholder => <textarea name="message" placeholder={placeholder} />}
                         </FormattedMessage>
                     </li>
                     <li className="Line Submit">
-                        <FormattedMessage id="contact.form.submit.value" defaultMessage="send message">
+                        <FormattedMessage id="content.pages.contact.form.submit.value">
                             {value => <input name="submit" type="submit" value={value} />}
                         </FormattedMessage>
                     </li>

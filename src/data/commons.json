@@ -1,0 +1,9 @@
+{
+    "nav": {
+        "endpoint_home": "/home",
+        "endpoint_about": "/about",
+        "endpoint_career": "/career",
+        "endpoint_projects": "/projects",
+        "endpoint_contact": "/contact"
+    }
+}

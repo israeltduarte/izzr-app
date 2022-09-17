@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import useCollapse from 'react-collapsed';
-import { FormattedMessage } from 'react-intl';
 
 const SkillArea = (props) => {
 
@@ -18,12 +17,8 @@ const SkillArea = (props) => {
         <div>
             <div className="SkillLine" {...getToggleProps({ onClick: handleClick })}>
                 <div className="ProgressBar" style={{ width: areaResult }} >
-                    <div className="SkillName">
-                        <FormattedMessage id={props.name} defaultMessage="" />
-                    </div>
-                    <div className="SkillPercent">
-                        {areaResult}
-                    </div>
+                    <div className="SkillName">{props.name}</div>
+                    <div className="SkillPercent">{areaResult}</div>
                 </div>
             </div>
             <div {...getCollapseProps()}>
@@ -31,7 +26,7 @@ const SkillArea = (props) => {
                     area.stack
                         .sort((a, b) => a.level < b.level ? 1 : -1)
                         .map((element) => {
-                            let percentElementWidth = element.level * percentMultiplier + "%";
+                            let percentElementWidth = Math.ceil(element.level * percentMultiplier) + "%";
                             return (
                                 <div className="SkillLine SubLine content" key={element.id}>
                                     <div className="ProgressBar" style={{ width: percentElementWidth }} >

@@ -1,6 +1,5 @@
 import React from "react";
-import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 import data from "../data/information.json";
 
 const Socials = () => {
@@ -8,19 +7,22 @@ const Socials = () => {
         <div className="Socials">
             <ul className="SocialsList">
                 <li>
-                    <a target="_blank" rel="noopener noreferrer" href={data.information.instagram}>
-                        <AiFillInstagram />
-                    </a>
+                    <a target="_blank" rel="noopener noreferrer"
+                        title={data.information.instagram.title}
+                        href={data.information.instagram.url}
+                    ><AiFillInstagram /></a>
                 </li>
                 <li>
-                    <a target="_blank" rel="noopener noreferrer" href={data.information.github}>
-                        <AiFillGithub />
-                    </a>
+                    <a target="_blank" rel="noopener noreferrer"
+                        title={data.information.linkedin.title}
+                        href={data.information.linkedin.url}
+                    ><AiFillLinkedin /></a>
                 </li>
                 <li>
-                    <a target="_blank" rel="noopener noreferrer" href={data.information.linkedin}>
-                        <FaLinkedinIn />
-                    </a>
+                    <a target="_blank" rel="noopener noreferrer"
+                        title={data.information.github.title}
+                        href={data.information.github.url}
+                    ><AiFillGithub /></a>
                 </li>
             </ul>
         </div>

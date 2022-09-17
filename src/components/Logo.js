@@ -19,7 +19,7 @@ const Logo = () => {
 
 
             <span>Israel Duarte</span>
-            <span><FormattedMessage id="personal.title" defaultMessage="" /></span>
+            <span><FormattedMessage id="content.logo.title" /></span>
         </div>
     )
 }

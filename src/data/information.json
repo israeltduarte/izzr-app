@@ -4,8 +4,19 @@
         "since": "2019/04",
         "current_city": "Campinas, SP",
         "email": "israeltduarte@gmail.com",
-        "linkedin": "https://www.linkedin.com/in/israeltduarte",
-        "instagram": "https://www.instagram.com/israeltduarte",
-        "github": "https://www.github.com/israeltduarte"
+        "portfolio": "http://izzrtech.infinityfreeapp.com",
+        "linkedin": {
+            "title": "LinkedIn",
+            "url": "https://www.linkedin.com/in/israeltduarte"
+        },
+        "instagram": {
+            "title": "Instagram",
+            "url": "https://www.instagram.com/israeltduarte"
+        },
+        "github": {
+            "title": "GitHub",
+            "url": "https://www.github.com/israeltduarte"
+        },
+        "introduction": "I'm an IT professional who graduated as a Systems Analyst and Developer. Since early 2019 I've been working with web development. Currently I'm working as a backend software developer with Java and Spring Boot. I've always used agile methodologies in order to manage the development process. I'm someone who is at every moment trying to have an open mind to learn more and to become better, not only at professional aspects. I'm really passionate about technology and coding."
     }
 }
