@@ -1,10 +1,115 @@
 {
     "experience": [
         {
-            "company": "Compass"
+            "company": "Compass",
+            "startDate": "2019-08",
+            "endDate": "2021-03",
+            "projects": [
+                {
+                    "client": "Jaguariúna City Hall",
+                    "startDate": "2019-09",
+                    "endDate": "2020-01",
+                    "description": "Upgrade a legacy system by adding new features allowing it to receive invoices from companies in another cities.",
+                    "function": "Back-end developer",
+                    "stack": [
+                        "Java 8",
+                        "Spring Boot",
+                        "Microservices",
+                        "REST",
+                        "MySQL",
+                        "Hibernate",
+                        "BitBucket",
+                        "Maven",
+                        "JUnit",
+                        "SCRUM",
+                        "Swagger"
+                    ],
+                    "responsibilities": [
+                        "Data modeling design",
+                        "Implement the solution proposed by team lead",
+                        "Create REST endpoints, exposing the application to receive invoices",
+                        "Ensure quality with unit tests",
+                        "Document the work through Swagger and OpenAPI standards",
+                        "Work on a fast-passed agile environment using Scrum"
+                    ]
+                },
+                {
+                    "client": "Livelo",
+                    "startDate": "2020-02",
+                    "endDate": "2021-03",
+                    "description": "Manage, develop and maintain applications in order to create, redeem and validate Livelo coupons that could be used in exchange for selected products or services.",
+                    "function": "Full-stack developer",
+                    "stack": [
+                        "Microservices",
+                        "Java 8",
+                        "Spring Boot",
+                        "Maven",
+                        "JUnit",
+                        "Swagger",
+                        "Jenkins",
+                        "OracleDB",
+                        "Docker",
+                        "Stash",
+                        "SCRUM",
+                        "Jira",
+                        "Confluence",
+                        "HTML",
+                        "CSS",
+                        "Javascript",
+                        "KnockoutJS"
+                    ],
+                    "responsibilities": [
+                        "Manage, develop and maintain several microservices",
+                        "Work with scheduled proccesses",
+                        "Document features design and how to use them",
+                        "Maintain code coverage over 90%",
+                        "Deploy changes with a devops environment",
+                        "Deal with authentication and authorization",
+                        "Work with OCC to release front-end features",
+                        "Work on a fast-passed agile environment using Scrum"
+                    ]
+                }
+            ]
         },
         {
-            "company": "Avenue Code"
+            "company": "Avenue Code",
+            "startDate": "2020-03",
+            "endDate": "current",
+            "projects": [
+                {
+                    "client": "SquareTrade",
+                    "startDate": "2020-03",
+                    "endDate": "current",
+                    "description": "Retire of a legacy monolithic application splitting it up into many microservices that manage item warranties.",
+                    "function": "Software Engineer",
+                    "stack": [
+                        "Java 11",
+                        "Spring Boot",
+                        "Microservices",
+                        "REST",
+                        "PostgreSQL",
+                        "Jenkins",
+                        "Jira",
+                        "Hibernate",
+                        "SCRUM",
+                        "JPA",
+                        "GitHub",
+                        "Gradle",
+                        "ActiveMQ",
+                        "Kafka"
+                    ],
+                    "responsibilities": [
+                        "Arquitecture of microservices",
+                        "Research, design and present code solution",
+                        "Analyze and research existing features bringing up acceptance criteria",
+                        "Work with QAs to have automation covering use case scenarios",
+                        "Manage several microservices and databases working together",
+                        "Implement, test and maintain features migrated from legacy system",
+                        "Work on a fast-passed agile environment using Scrum",
+                        "Work on an event-driven architecture system"
+                    ]
+                }
+            ]
         }
     ]
 }

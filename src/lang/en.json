@@ -19,8 +19,5 @@
     "contact.form.email.placeholder": "email",
     "contact.form.subject.placeholder": "subject",
     "contact.form.message.placeholder": "message",
-    "contact.form.submit.value": "send message",
-    "test": {
-        "test2": "testing"
-    }
+    "contact.form.submit.value": "send message"
 }
