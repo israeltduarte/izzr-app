@@ -6,8 +6,8 @@ import portuguese from "../lang/pt-BR.json";
 export const Context = React.createContext();
 
 let local = navigator.language;
-// local = "en";
-local = "pt-BR";
+local = "en";
+// local = "pt-BR";
 
 const en = "en";
 const pt_br = "pt-BR";
